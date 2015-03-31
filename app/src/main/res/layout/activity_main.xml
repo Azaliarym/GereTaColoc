@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agenda"
+        android:id="@+id/btnAgenda"
+        android:layout_marginBottom="94dp"
+        android:layout_above="@+id/btnRegleDeVie"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bloc-Notes"
+        android:id="@+id/btnBlocNote"
+        android:layout_marginRight="42dp"
+        android:layout_marginEnd="42dp"
+        android:layout_alignTop="@+id/btnRegleDeVie"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regle De Vie"
+        android:id="@+id/btnRegleDeVie"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/btnAgenda"
+        android:layout_alignStart="@+id/btnAgenda"
+        android:layout_marginBottom="144dp"
+        android:layout_alignRight="@+id/btnAgenda"
+        android:layout_alignEnd="@+id/btnAgenda" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loyer et Charges"
+        android:id="@+id/btnLoyer"
+        android:layout_alignBottom="@+id/btnAgenda"
+        android:layout_alignRight="@+id/btnBlocNote"
+        android:layout_alignEnd="@+id/btnBlocNote"
+        android:layout_alignLeft="@+id/btnBlocNote"
+        android:layout_alignStart="@+id/btnBlocNote" />
+
+
+
+</RelativeLayout>
